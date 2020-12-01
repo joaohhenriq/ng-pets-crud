@@ -14,6 +14,8 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
 import { HomeComponent } from './views/home/home.component';
 import { PetsCrudComponent } from './views/pets-crud/pets-crud.component';
+import { RedDirective } from './directives/red.directive';
+import { ForDirective } from './directives/for.directive';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { PetsCrudComponent } from './views/pets-crud/pets-crud.component';
     FooterComponent,
     NavComponent,
     HomeComponent,
-    PetsCrudComponent
+    PetsCrudComponent,
+    RedDirective,
+    ForDirective
   ],
   imports: [
     BrowserModule,
